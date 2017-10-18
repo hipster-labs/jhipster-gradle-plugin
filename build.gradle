@@ -1,0 +1,7 @@
+apply plugin: 'java-gradle-plugin'
+apply from: "$rootDir/gradle/publishing-local.gradle"
+
+repositories {
+    jcenter()
+}
+
